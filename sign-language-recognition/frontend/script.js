@@ -1,5 +1,5 @@
 // API Base URL - change for production
-const API_BASE = 'http://localhost:8000';
+const API_BASE = 'https://sign-language-backend-uf7m.onrender.com';
 
 // Sign meanings
 const SIGN_MEANINGS = {
