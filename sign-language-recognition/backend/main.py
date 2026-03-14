@@ -22,8 +22,7 @@ app.add_middleware(
 
 # Load model
 try:
-    model_loader = ModelLoader()
-    model = model_loader.model
+    model = ModelLoader.load_model
     predictor = Predictor(model)
 except Exception as e:
     print(f"Model load error: {e}")
